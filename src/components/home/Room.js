@@ -21,7 +21,7 @@ const Room = ({ className, room }) => {
       <div className="room-info">
         <h4>{title}</h4>
         <p>{info}</p>
-        <SmallBtn>Hello</SmallBtn>
+        <SmallBtn>View</SmallBtn>
       </div>
     </article>
   );

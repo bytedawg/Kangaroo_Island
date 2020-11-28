@@ -6,25 +6,25 @@ export default [
   {
     id: 1,
     img: room1,
-    title: "basic economy",
+    title: "Deluxe 1 Bedroom Villa",
     info:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quisquam corrupti dicta tempora sequi sapiente!",
-    price: 125
+      "Overlooking beautiful Pink Bay and with outstanding ocean views, our deluxe eco-villa “Kestrel” offers luxury accommodation on Kangaroo Island  that is perfect for the guest who wants to experience the Island’s amazing coastal vistas and wildlife. ",
+    price: 150
   },
   {
     id: 2,
     img: room2,
-    title: "presidential suite",
+    title: "Luxury Kangaroo Island Lodge - 2 or 4 Bedrooms",
     info:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quisquam corrupti dicta tempora sequi sapiente!",
+      "Our luxury Kangaroo Island Lodge is the flagship of our deluxe range of accommodation and can be rented in a 2 or a 4 bedroom configuration. ",
     price: 250
   },
   {
     id: 3,
     img: room3,
-    title: "standard queen room",
+    title: "Luxury Kangaroo Island Retreat",
     info:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quisquam corrupti dicta tempora sequi sapiente!",
+      "Our luxury Kangaroo Island Retreat is nestled in a delightful bushland setting, with wildlife all around and is the most secluded of our Kangaroo Island accommodations.",
     price: 375
   }
 ];

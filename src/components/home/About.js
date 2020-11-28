@@ -16,15 +16,12 @@ const About = () => {
     <Section>
       <AboutCenter>
         <div className="about-img">
-          <img src={aboutImg} alt="about us" />
+          <img src={aboutImg} alt="about" />
         </div>
         <div className="about-info">
-          <Title title="about us" />
+          <Title title="about" />
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit aut
-            quos ea optio ipsa, molestiae officiis, voluptates itaque blanditiis
-            nostrum est fugiat, architecto odit at atque obcaecati nihil!
-            Cupiditate, error.
+          Kangaroo Island Resort lies off the mainland of South Australia, southwest of Adelaide. Over a third of the island is protected in nature reserves, home to native wildlife like sea lions, koalas and diverse bird species. In the west, Flinders Chase National Park is known for penguin colonies and striking coastal rock formations, like the sculpted Remarkable Rocks and the stalactite-covered Admirals Arch.
           </p>
           <PrimaryBtn>read more</PrimaryBtn>
         </div>
