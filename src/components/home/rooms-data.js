@@ -25,6 +25,6 @@ export default [
     title: "Luxury Kangaroo Island Retreat",
     info:
       "Our luxury Kangaroo Island Retreat is nestled in a delightful bushland setting, with wildlife all around and is the most secluded of our Kangaroo Island accommodations.",
-    price: 375
+    price: 350
   }
 ];
