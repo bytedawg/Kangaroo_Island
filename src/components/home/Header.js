@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../globals/Hero";
-import aboutImg from "../../images/aboutBcg.jpg";
-import homeImg from "../../images/homeBcg.jpg";
+import aboutImg from "../../images/about_img.jpg";
+import homeImg from "../../images/home_img.jpg";
 import Banner from "../globals/Banner";
 import { PrimaryBtn } from "../globals/Buttons";
 const Header = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "../globals/Section";
 import Title from "../globals/Title";
-import aboutImg from "../../images/aboutBcg.jpg";
+import aboutImg from "../../images/about_img.jpg";
 import {
   setRem,
   setBorder,
