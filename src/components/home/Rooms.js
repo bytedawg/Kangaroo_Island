@@ -5,7 +5,7 @@ import Title from "../globals/Title";
 import Section from "../globals/Section";
 import rooms from "./rooms-data";
 import { setColor, media, setRem } from "../../styles";
-export default class Rooms extends Component {
+export default class Accomodation extends Component {
   state = {
     rooms: rooms
   };
