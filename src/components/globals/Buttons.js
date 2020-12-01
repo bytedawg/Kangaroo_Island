@@ -5,8 +5,10 @@ import {
   setLetterSpacing,
   setFont,
   setBorder,
-  setTransition
+  setTransition,
+  setBackground
 } from "../../styles";
+
 export const PrimaryBtn = styled.button`
   display: inline-block;
   background: ${setColor.mainBlack};
@@ -19,8 +21,8 @@ export const PrimaryBtn = styled.button`
   ${setLetterSpacing(3)};
   ${setTransition()};
   &:hover {
-    background: transparent;
-    color: ${setColor.primaryColor};
+    background: ${setColor.mainGrey};
+    color: ${setColor.mainBlack};
   }
   ${props =>
     `margin: ${props.t || 0} ${props.r || 0} ${props.b || 0} ${props.l || 0}}`};

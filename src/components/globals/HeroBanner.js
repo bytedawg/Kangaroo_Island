@@ -7,6 +7,7 @@ import {
   setBorder,
   media
 } from "../../styles";
+
 const fadeIn = (start, point, end) => {
   const animation = keyframes`
 0%{
@@ -27,12 +28,14 @@ const fadeIn = (start, point, end) => {
     animation: ${animation} 3s ease-in-out;
   `;
 };
+
 const Banner = ({ className, title, text, children, greeting }) => {
   return (
     <div className={className}>
       <h1>
         {greeting} <span>{title}</span>{" "}
       </h1>
+      
       <div className="info">
         <p>{text}</p>
         {children}

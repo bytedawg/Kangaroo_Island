@@ -3,27 +3,31 @@ import Room from "./Room";
 import styled from "styled-components";
 import Title from "../globals/Title";
 import Section from "../globals/Section";
-import rooms from "./rooms-data";
+import roomData from "./accomodation-data";
 import { setColor, media, setRem } from "../../styles";
+
+
 export default class Accomodation extends Component {
   state = {
-    rooms: rooms
+    rooms: roomData
   };
   render() {
+  const {rooms} = this.state;
     return (
       <Section color={setColor.lightGrey}>
-        <Title title="our rooms" center />
-        <RoomsCenter>
-          {this.state.rooms.map(room => {
+        <Title title="Our Kangaroo Island accommodation" center />
+        <AccomodationCenter>
+          {rooms.map(room => {
             return <Room key={room.id} room={room} />;
           })}
-        </RoomsCenter>
+        </AccomodationCenter>
       </Section>
     );
   }
 }
 
-const RoomsCenter = styled.div`
+
+const AccomodationCenter = styled.div`
   width: 90vw;
   margin: 0 auto;
   ${media.tablet`

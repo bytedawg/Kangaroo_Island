@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import { setColor, setFont } from "../../styles";
+
 const Globals = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css?family=Courgette|Lato:400,700');
 

@@ -10,6 +10,7 @@ import {
   setBorder
 } from "../../styles";
 import PropTypes from "prop-types";
+
 const Room = ({ className, room }) => {
   const { img = "", title = "", info = "", price = 0 } = room;
   return (
@@ -83,3 +84,5 @@ Room.propTypes = {
     price: PropTypes.number.isRequired
   })
 };
+
+
